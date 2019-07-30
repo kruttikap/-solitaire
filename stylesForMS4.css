@@ -1,0 +1,448 @@
+.gamespace{
+    background-color:green;
+    padding:0px; 
+} 
+
+.lookatmesometimes{
+    background-color: gold;
+    padding: 30px;
+    position:absolute;
+    top: 40px;
+    width:90%;
+    right:57px;
+}
+
+.timer{
+  font-weight: bold;
+  position: absolute;
+  top: 18px;
+}
+.timer-count-color{
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    left: 89px;
+    top: 18px;
+}
+
+.moves{
+  position: absolute;
+  left: 175px;
+  font-weight: bold;
+  top: 18px;
+}
+
+.moves-count-color{
+    color: white;
+    position: absolute;
+    left: 238px;
+    font-weight: bold;
+    top: 18px;
+}
+
+
+.score{
+  position: absolute;
+  left: 275px;
+  font-weight: bold;
+  top: 18px;
+}
+.score-count-color{
+    color:white;
+    position: absolute;
+    left: 333px;
+    font-weight: bold;
+    top: 18px;
+}
+
+.new-game{
+    border: inset;
+    background-color: green;
+    color: yellow;
+    font-weight: bold;
+    position: absolute;
+    right: 255px;
+}
+
+.undo{
+    border: outset;
+    background-color: black;
+    color: tomato;
+    font-weight: bold;
+    position: absolute;
+    right: 45px;
+}
+
+.fa-undo{
+  color:yellow;
+}
+
+.cardback{
+  background-image: url(/home/saiteja/Downloads/playcard_red-backgrnd.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+} 
+
+ .row2{
+    position: absolute;
+    top: 160px;
+    /* border: 3px solid blue;
+    height: 315px;
+    width: 100%;
+    padding: 25px; */
+}  
+
+.stockpile{
+    border: 2px dotted;
+    width: 220px;
+    height: 310px;
+    display: inline-block;
+    position: absolute;
+    left: 80px;
+    z-index: 0; 
+}
+
+.card{ 
+    border: 2px dotted;
+    width: 220px;
+    height: 310px;
+    display: inline-block;
+    position: absolute;
+    left: 80px;
+    z-index: 0; 
+}
+
+.wastepile{
+    border: 2px dotted;
+    width: 220px;
+    height: 310px;
+    display: inline-block;
+    position: absolute;
+    left: 325px;    
+}  
+ 
+  .heart-foundation{ 
+    border: 2px dotted;
+    width: 220px;
+    height: 310px;
+    display: inline-block;
+    position: absolute;
+    left: 750px;    
+}
+
+.diamond-foundation{
+    border: 2px dotted;
+    width: 220px;
+    height: 310px;
+    display: inline-block;
+    position: absolute;
+    left: 1010px;    
+}
+
+.club-foundation{
+    border: 2px dotted;
+    width: 220px;
+    height: 310px;
+    display: inline-block;
+    position: absolute;
+    left: 1270px;
+}
+
+.spade-foundation{
+    border: 2px dotted;
+    width: 220px;
+    height: 310px;
+    display: inline-block;
+    position: absolute;
+    left: 1530px;
+}
+
+.img{
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 15px;
+}
+
+.zero{
+    border: 2px dotted;
+    width: 220px;
+    height: 310px;
+    display: inline-block;
+    position: absolute;
+    top: 520px;
+    left: 35px;
+}
+
+.one{
+    border: 2px dotted;
+    width: 220px;
+    height: 310px;
+    display: inline-block;
+    position: absolute;
+    top: 520px;
+    left: 295px;
+}
+
+.oneplusneversettle{
+    border: 2px dotted;
+    width: 220px;
+    height: 310px;
+    display: inline-block;
+    position: absolute;
+    top: 535px;
+    left: 295px;
+}
+
+
+.two{
+    border: 2px dotted;
+    width: 220px;
+    height: 310px;
+    display: inline-block;
+    position: absolute;
+    top: 520px;
+    left: 550px;
+}
+
+.twoplus1{
+    border: 2px dotted;
+    width: 220px;
+    height: 310px;
+    display: inline-block;
+    position: absolute;
+    top: 535px;
+    left: 550px;
+}
+
+.twoplus2{
+    border: 2px dotted;
+    width: 220px;
+    height: 310px;
+    display: inline-block;
+    position: absolute;
+    top: 570px;
+    left: 550px;
+}
+
+.three{
+    border: 2px dotted;
+    width: 220px;
+    height: 310px;
+    display: inline-block;
+    position: absolute;
+    top: 520px;
+    left: 805px;
+}
+
+.threeplus1{
+    border: 2px dotted;
+    width: 220px;
+    height: 310px;
+    display: inline-block;
+    position: absolute;
+    top: 535px;
+    left: 805px;
+}
+
+.threeplus2{
+    border: 2px dotted;
+    width: 220px;
+    height: 310px;
+    display: inline-block;
+    position: absolute;
+    top: 570px;
+    left: 805px;
+}
+
+.threeplus3{
+    border: 2px dotted;
+    width: 220px;
+    height: 310px;
+    display: inline-block;
+    position: absolute;
+    top: 605px;
+    left: 805px;
+}
+
+
+
+.four{
+    border: 2px dotted;
+    width: 220px;
+    height: 310px;
+    display: inline-block;
+    position: absolute;
+    top: 520px;
+    left: 1055px;
+}
+
+.fourplus1{
+    border: 2px dotted;
+    width: 220px;
+    height: 310px;
+    display: inline-block;
+    position: absolute;
+    top: 535px;
+    left: 1055px;
+}
+
+.fourplus2{
+    border: 2px dotted;
+    width: 220px;
+    height: 310px;
+    display: inline-block;
+    position: absolute;
+    top: 570px;
+    left: 1055px;
+}
+
+.fourplus3{
+    border: 2px dotted;
+    width: 220px;
+    height: 310px;
+    display: inline-block;
+    position: absolute;
+    top: 605px;
+    left: 1055px;
+}
+
+.fourplus4{
+    border: 2px dotted;
+    width: 220px;
+    height: 310px;
+    display: inline-block;
+    position: absolute;
+    top: 640px;
+    left: 1055px;
+}
+
+.five{
+    border: 2px dotted;
+    width: 220px;
+    height: 310px;
+    display: inline-block;
+    position: absolute;
+    top: 520px;
+    left: 1300px;
+}
+
+.fiveplus1{
+    border: 2px dotted;
+    width: 220px;
+    height: 310px;
+    display: inline-block;
+    position: absolute;
+    top: 535px;
+    left: 1300px;
+}
+
+.fiveplus2{
+    border: 2px dotted;
+    width: 220px;
+    height: 310px;
+    display: inline-block;
+    position: absolute;
+    top: 570px;
+    left: 1300px;
+}
+
+.fiveplus3{
+    border: 2px dotted;
+    width: 220px;
+    height: 310px;
+    display: inline-block;
+    position: absolute;
+    top: 605px;
+    left: 1300px;
+}
+
+.fiveplus4{
+    border: 2px dotted;
+    width: 220px;
+    height: 310px;
+    display: inline-block;
+    position: absolute;
+    top: 640px;
+    left: 1300px;
+}
+
+.fiveplus5{
+    border: 2px dotted;
+    width: 220px;
+    height: 310px;
+    display: inline-block;
+    position: absolute;
+    top: 675px;
+    left: 1300px;
+}
+
+.six{
+    border: 2px dotted;
+    width: 220px;
+    height: 310px;
+    display: inline-block;
+    position: absolute;
+    top: 520px;
+    left: 1555px;
+}
+
+.sixplus1{
+    border: 2px dotted;
+    width: 220px;
+    height: 310px;
+    display: inline-block;
+    position: absolute;
+    top: 535px;
+    left: 1555px;
+}
+
+.sixplus2{
+    border: 2px dotted;
+    width: 220px;
+    height: 310px;
+    display: inline-block;
+    position: absolute;
+    top: 570px;
+    left: 1555px;
+}
+
+.sixplus3{
+    border: 2px dotted;
+    width: 220px;
+    height: 310px;
+    display: inline-block;
+    position: absolute;
+    top: 605px;
+    left: 1555px;
+}
+
+.sixplus4{
+    border: 2px dotted;
+    width: 220px;
+    height: 310px;
+    display: inline-block;
+    position: absolute;
+    top: 640px;
+    left: 1555px;
+}
+
+.sixplus5{
+    border: 2px dotted;
+    width: 220px;
+    height: 310px;
+    display: inline-block;
+    position: absolute;
+    top: 675px;
+    left: 1555px;
+}
+
+.sixplus6{
+    border: 2px dotted;
+    width: 220px;
+    height: 310px;
+    display: inline-block;
+    position: absolute;
+    top: 700px;
+    left: 1555px;
+}
