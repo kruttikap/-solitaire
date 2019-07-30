@@ -3,8 +3,7 @@
     padding-top: 50px;
     padding-right: 30px;
     padding-bottom: 1050px;
-    padding-left: 310px;
-    /* padding:1000px;  */
+    padding-left: 150px;
 }  
 
 .lookatmesometimes{
@@ -15,9 +14,6 @@
     width:90%;
     right:57px;
 }
-/* 
-.timer .timer-count-color .moves .moves-count-color .score .score-count-color .new-game .undo{
-    font-size: 35px; */
 
 .timer{
     font-size: 30px;
@@ -111,15 +107,15 @@
 
 .cardback{
   background-image: url(./images/cardback.png);
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
 }
 
 .littlehearts{
     background-image: url(./images/heart_symbol_playcard.png);
     background-size: contain;
-    width: 484px;
-    height: 200px;
+    width: 50px;
+    height: 100px;
     background-repeat: no-repeat;
     position: absolute;
     top: 65px;
@@ -129,8 +125,8 @@
 .blooddiamond{
     background-image: url(./images/diamond_playcard.png);
     background-size: contain;
-    width: 484px;
-    height: 200px;
+    width: 50px;
+    height: 100px;
     background-repeat: no-repeat;
     position: absolute;
     top: 65px;
@@ -140,8 +136,8 @@
 .gamblersonly{
     background-image: url(./images/club_playcard.png);
     background-size: contain;
-    width: 484px;
-    height: 200px;
+    width: 50px;
+    height: 100px;
     background-repeat: no-repeat;
     position: absolute;
     top: 62px;
@@ -151,8 +147,8 @@
 .winteriscoming{
     background-image: url(./images/Spade_playcard.png);
     background-size: contain;
-    width: 484px;
-    height: 200px;
+    width: 50px;
+    height: 100px;
     background-repeat: no-repeat;
     position: absolute;
     top: 65px;
@@ -162,7 +158,7 @@
         /* width: 5px;
         height: 5px;    
         background-image: url(heart_symbol_playcard.png);
-        background-size: cover;
+        background-size: contain;
         background-repeat: no-repeat; */
 
 
@@ -176,14 +172,14 @@
 }     */
 /* .srk{
     background-image: url(heart_symbol_playcard.png);
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
 } */
 
 .stockpile{
     border: 2px;
-    width: 220px;
-    height: 310px;
+    width: 90px;
+    height: 150px;
     display: inline-block;
     position: absolute;
     left: 80px;
@@ -193,8 +189,8 @@
 
 .card{ 
     border: 2px;
-    width: 220px;
-    height: 310px;
+    width: 90px;
+    height: 150px;
     display: inline-block;
     position: absolute;
     left: 80px;
@@ -204,8 +200,8 @@
 
 .wastepile{
     border: 2px dotted;
-    width: 220px;
-    height: 310px;
+    width: 90px;
+    height: 150px;
     display: inline-block;
     position: absolute;
     left: 325px;
@@ -214,21 +210,21 @@
  
 .heart-foundation{ 
     border: 2px dotted;
-    width: 220px;
-    height: 310px;
+    width: 90px;
+    height: 150px;
     display: inline-block;
     position: absolute;
     left: 750px;
     top: 160px;    
     /* background-image: url(heart_symbol_playcard.png);
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat; */
 }
 
 .diamond-foundation{
     border: 2px dotted;
-    width: 220px;
-    height: 310px;
+    width: 90px;
+    height: 150px;
     display: inline-block;
     position: absolute;
     left: 1010px;
@@ -237,8 +233,8 @@
 
 .club-foundation{
     border: 2px dotted;
-    width: 220px;
-    height: 310px;
+    width: 90px;
+    height: 150px;
     display: inline-block;
     position: absolute;
     left: 1270px;
@@ -247,25 +243,19 @@
 
 .spade-foundation{
     border: 2px dotted;
-    width: 220px;
-    height: 310px;
+    width: 90px;
+    height: 150px;
     display: inline-block;
     position: absolute;
     left: 1530px;
     top: 160px;
 }
 
-/* .img{
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  padding: 5px;
-  width: 15px;
-} */
 
 .zero{
     border: 2px;
-    width: 220px;
-    height: 310px;
+    width: 90px;
+    height: 150px;
     display: inline-block;
     position: absolute;
     top: 520px;
@@ -274,13 +264,13 @@
 
 .srk{
     background-image: url(./images/10_of_hearts.png);
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
 }
 .one{
     border: 2px;
-    width: 220px;
-    height: 310px;
+    width: 90px;
+    height: 150px;
     display: inline-block;
     position: absolute;
     top: 520px;
@@ -289,8 +279,8 @@
 
 .oneplusneversettle{
     border: 2px;
-    width: 220px;
-    height: 310px;
+    width: 90px;
+    height: 150px;
     display: inline-block;
     position: absolute;
     top: 555px;
@@ -299,13 +289,13 @@
 
 .sevenpro{
     background-image: url(./images/7_of_diamonds.png);
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
 }
 .two{
     border: 2px;
-    width: 220px;
-    height: 310px;
+    width: 90px;
+    height: 150px;
     display: inline-block;
     position: absolute;
     top: 520px;
@@ -314,8 +304,8 @@
 
 .twoplus1{
     border: 2px;
-    width: 220px;
-    height: 310px;
+    width: 90px;
+    height: 150px;
     display: inline-block;
     position: absolute;
     top: 555px;
@@ -324,8 +314,8 @@
 
 .twoplus2{
     border: 2px;
-    width: 220px;
-    height: 310px;
+    width: 90px;
+    height: 150px;
     display: inline-block;
     position: absolute;
     top: 590px;
@@ -334,14 +324,14 @@
 
 .maybefour{
     background-image: url(./images/ace_of_clubs.png);
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
 }
 
 .three{
     border: 2px;
-    width: 220px;
-    height: 310px;
+    width: 90px;
+    height: 150px;
     display: inline-block;
     position: absolute;
     top: 520px;
@@ -350,8 +340,8 @@
 
 .threeplus1{
     border: 2px;
-    width: 220px;
-    height: 310px;
+    width: 90px;
+    height: 150px;
     display: inline-block;
     position: absolute;
     top: 555px;
@@ -360,8 +350,8 @@
 
 .threeplus2{
     border: 2px;
-    width: 220px;
-    height: 310px;
+    width: 90px;
+    height: 150px;
     display: inline-block;
     position: absolute;
     top: 590px;
@@ -370,8 +360,8 @@
 
 .threeplus3{
     border: 2px;
-    width: 220px;
-    height: 310px;
+    width: 90px;
+    height: 150px;
     display: inline-block;
     position: absolute;
     top: 625px;
@@ -380,14 +370,14 @@
 
 .theenpatti{
     background-image: url(./images/king_of_diamonds2.png);
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
 }
 
 .four{
     border: 2px;
-    width: 220px;
-    height: 310px;
+    width: 90px;
+    height: 150px;
     display: inline-block;
     position: absolute;
     top: 520px;
@@ -396,8 +386,8 @@
 
 .fourplus1{
     border: 2px;
-    width: 220px;
-    height: 310px;
+    width: 90px;
+    height: 150px;
     display: inline-block;
     position: absolute;
     top: 555px;
@@ -406,8 +396,8 @@
 
 .fourplus2{
     border: 2px;
-    width: 220px;
-    height: 310px;
+    width: 90px;
+    height: 150px;
     display: inline-block;
     position: absolute;
     top: 590px;
@@ -416,8 +406,8 @@
 
 .fourplus3{
     border: 2px;
-    width: 220px;
-    height: 310px;
+    width: 90px;
+    height: 150px;
     display: inline-block;
     position: absolute;
     top: 625px;
@@ -426,8 +416,8 @@
 
 .fourplus4{
     border: 2px;
-    width: 220px;
-    height: 310px;
+    width: 90px;
+    height: 150px;
     display: inline-block;
     position: absolute;
     top: 660px;
@@ -437,14 +427,14 @@
 
 .fourWD{
     background-image: url(./images/5_of_spades.png);
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
 }
 
 .five{
     border: 2px;
-    width: 220px;
-    height: 310px;
+    width: 90px;
+    height: 150px;
     display: inline-block;
     position: absolute;
     top: 520px;
@@ -453,8 +443,8 @@
 
 .fiveplus1{
     border: 2px;
-    width: 220px;
-    height: 310px;
+    width: 90px;
+    height: 150px;
     display: inline-block;
     position: absolute;
     top: 555px;
@@ -463,8 +453,8 @@
 
 .fiveplus2{
     border: 2px;
-    width: 220px;
-    height: 310px;
+    width: 90px;
+    height: 150px;
     display: inline-block;
     position: absolute;
     top: 590px;
@@ -473,8 +463,8 @@
 
 .fiveplus3{
     border: 2px;
-    width: 220px;
-    height: 310px;
+    width: 90px;
+    height: 150px;
     display: inline-block;
     position: absolute;
     top: 625px;
@@ -483,8 +473,8 @@
 
 .fiveplus4{
     border: 2px;
-    width: 220px;
-    height: 310px;
+    width: 90px;
+    height: 150px;
     display: inline-block;
     position: absolute;
     top: 660px;
@@ -493,8 +483,8 @@
 
 .fiveplus5{
     border: 2px;
-    width: 220px;
-    height: 310px;
+    width: 90px;
+    height: 150px;
     display: inline-block;
     position: absolute;
     top: 695px;
@@ -503,13 +493,13 @@
 
 .ten{
     background-image: url(./images/queen_of_hearts2.png);
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
 }
 .six{
     border: 2px;
-    width: 220px;
-    height: 310px;
+    width: 90px;
+    height: 150px;
     display: inline-block;
     position: absolute;
     top: 520px;
@@ -518,8 +508,8 @@
 
 .sixplus1{
     border: 2px;
-    width: 220px;
-    height: 310px;
+    width: 90px;
+    height: 150px;
     display: inline-block;
     position: absolute;
     top: 555px;
@@ -528,8 +518,8 @@
 
 .sixplus2{
     border: 2px;
-    width: 220px;
-    height: 310px;
+    width: 90px;
+    height: 150px;
     display: inline-block;
     position: absolute;
     top: 590px;
@@ -538,8 +528,8 @@
 
 .sixplus3{
     border: 2px;
-    width: 220px;
-    height: 310px;
+    width: 90px;
+    height: 150px;
     display: inline-block;
     position: absolute;
     top: 625px;
@@ -548,8 +538,8 @@
 
 .sixplus4{
     border: 2px;
-    width: 220px;
-    height: 310px;
+    width: 90px;
+    height: 150px;
     display: inline-block;
     position: absolute;
     top: 660px;
@@ -558,8 +548,8 @@
 
 .sixplus5{
     border: 2px;
-    width: 220px;
-    height: 310px;
+    width: 90px;
+    height: 150px;
     display: inline-block;
     position: absolute;
     top: 695px;
@@ -568,8 +558,8 @@
 
 .sixplus6{
     border: 2px;
-    width: 220px;
-    height: 310px;
+    width: 90px;
+    height: 150px;
     display: inline-block;
     position: absolute;
     top: 730px;
@@ -578,7 +568,7 @@
 
 .twelve{
     background-image: url(./images/2_of_spades.png);
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
 
 }
