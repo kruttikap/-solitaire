@@ -1,0 +1,584 @@
+.gamespace{
+    background-color:green;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 1050px;
+    padding-left: 310px;
+    /* padding:1000px;  */
+}  
+
+.lookatmesometimes{
+    background-color: gold;
+    padding: 30px;
+    position:absolute;
+    top: 40px;
+    width:90%;
+    right:57px;
+}
+/* 
+.timer .timer-count-color .moves .moves-count-color .score .score-count-color .new-game .undo{
+    font-size: 35px; */
+
+.timer{
+    font-size: 30px;
+    color: red;
+    font-weight: bold;
+    position: absolute;
+    top: 12px;
+    left: 75px;
+}
+
+.timer-count-color{
+    color: blue;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    left: 165px;
+    top: 15px; 
+}
+
+.moves{
+    color: red;
+    position: absolute;
+    left: 298px;
+    font-size: 30px; 
+    font-weight: bold;
+    top: 12px; 
+}
+
+.moves-count-color{
+    color: blue;
+    position: absolute;
+    left: 395px;
+    font-size: 28px; 
+    font-weight: bold;
+    top: 15px; 
+}
+
+
+.score{
+    color: red;
+    position: absolute;
+    left: 445px;
+    font-size: 30px; 
+    font-weight: bold;
+    top: 12px;
+}
+
+.score-count-color{
+    color: blue;
+    position: absolute;
+    left: 530px;
+    font-size: 30px;
+    font-weight: bold;
+    top: 15px;
+}
+
+.sametitle{
+    color: black;
+    position: absolute;
+    left: 750px;
+    font-size: 45px;
+    font-weight: bold;
+    top: 5px;
+}
+
+.new-game{
+    border: inset;
+    background-color: green;
+    color: yellow;
+    font-size: 20px; 
+    font-weight: bold;
+    position: absolute;
+    right: 260px;
+    top: 12px;
+}
+
+.undo{
+    border: outset;
+    background-color: black;
+    color: tomato;
+    font-size: 20px;  
+    font-weight: bold;
+    position: absolute;
+    right: 45px;
+    top: 12px;
+}
+
+.fa-undo{
+  color:yellow;
+}
+
+.cardback{
+  background-image: url(./images/cardback.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.littlehearts{
+    background-image: url(./images/heart_symbol_playcard.png);
+    background-size: contain;
+    width: 484px;
+    height: 200px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 65px;
+    left: 14px;
+}
+
+.blooddiamond{
+    background-image: url(./images/diamond_playcard.png);
+    background-size: contain;
+    width: 484px;
+    height: 200px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 65px;
+    left: 10px;
+}
+
+.gamblersonly{
+    background-image: url(./images/club_playcard.png);
+    background-size: contain;
+    width: 484px;
+    height: 200px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 62px;
+    left: 14px;
+}
+
+.winteriscoming{
+    background-image: url(./images/Spade_playcard.png);
+    background-size: contain;
+    width: 484px;
+    height: 200px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 65px;
+    left: 14px;
+}
+
+        /* width: 5px;
+        height: 5px;    
+        background-image: url(heart_symbol_playcard.png);
+        background-size: cover;
+        background-repeat: no-repeat; */
+
+
+ /* .row2{
+    position: absolute;
+    top: 160px;
+     border: 3px solid blue;
+    height: 315px;
+    width: 100%;
+    padding: 25px; 
+}     */
+/* .srk{
+    background-image: url(heart_symbol_playcard.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
+
+.stockpile{
+    border: 2px;
+    width: 220px;
+    height: 310px;
+    display: inline-block;
+    position: absolute;
+    left: 80px;
+    top: 160px;
+    z-index: 0; 
+}
+
+.card{ 
+    border: 2px;
+    width: 220px;
+    height: 310px;
+    display: inline-block;
+    position: absolute;
+    left: 80px;
+    top: 160px;
+    z-index: 0; 
+}
+
+.wastepile{
+    border: 2px dotted;
+    width: 220px;
+    height: 310px;
+    display: inline-block;
+    position: absolute;
+    left: 325px;
+    top: 160px;    
+}  
+ 
+.heart-foundation{ 
+    border: 2px dotted;
+    width: 220px;
+    height: 310px;
+    display: inline-block;
+    position: absolute;
+    left: 750px;
+    top: 160px;    
+    /* background-image: url(heart_symbol_playcard.png);
+    background-size: cover;
+    background-repeat: no-repeat; */
+}
+
+.diamond-foundation{
+    border: 2px dotted;
+    width: 220px;
+    height: 310px;
+    display: inline-block;
+    position: absolute;
+    left: 1010px;
+    top: 160px;    
+}
+
+.club-foundation{
+    border: 2px dotted;
+    width: 220px;
+    height: 310px;
+    display: inline-block;
+    position: absolute;
+    left: 1270px;
+    top: 160px;
+}
+
+.spade-foundation{
+    border: 2px dotted;
+    width: 220px;
+    height: 310px;
+    display: inline-block;
+    position: absolute;
+    left: 1530px;
+    top: 160px;
+}
+
+/* .img{
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 15px;
+} */
+
+.zero{
+    border: 2px;
+    width: 220px;
+    height: 310px;
+    display: inline-block;
+    position: absolute;
+    top: 520px;
+    left: 35px;
+}
+
+.srk{
+    background-image: url(./images/10_of_hearts.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.one{
+    border: 2px;
+    width: 220px;
+    height: 310px;
+    display: inline-block;
+    position: absolute;
+    top: 520px;
+    left: 295px;
+}
+
+.oneplusneversettle{
+    border: 2px;
+    width: 220px;
+    height: 310px;
+    display: inline-block;
+    position: absolute;
+    top: 555px;
+    left: 295px;
+}
+
+.sevenpro{
+    background-image: url(./images/7_of_diamonds.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.two{
+    border: 2px;
+    width: 220px;
+    height: 310px;
+    display: inline-block;
+    position: absolute;
+    top: 520px;
+    left: 550px;
+}
+
+.twoplus1{
+    border: 2px;
+    width: 220px;
+    height: 310px;
+    display: inline-block;
+    position: absolute;
+    top: 555px;
+    left: 550px;
+}
+
+.twoplus2{
+    border: 2px;
+    width: 220px;
+    height: 310px;
+    display: inline-block;
+    position: absolute;
+    top: 590px;
+    left: 550px;
+}
+
+.maybefour{
+    background-image: url(./images/ace_of_clubs.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.three{
+    border: 2px;
+    width: 220px;
+    height: 310px;
+    display: inline-block;
+    position: absolute;
+    top: 520px;
+    left: 805px;
+}
+
+.threeplus1{
+    border: 2px;
+    width: 220px;
+    height: 310px;
+    display: inline-block;
+    position: absolute;
+    top: 555px;
+    left: 805px;
+}
+
+.threeplus2{
+    border: 2px;
+    width: 220px;
+    height: 310px;
+    display: inline-block;
+    position: absolute;
+    top: 590px;
+    left: 805px;
+}
+
+.threeplus3{
+    border: 2px;
+    width: 220px;
+    height: 310px;
+    display: inline-block;
+    position: absolute;
+    top: 625px;
+    left: 805px;
+}
+
+.theenpatti{
+    background-image: url(./images/king_of_diamonds2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.four{
+    border: 2px;
+    width: 220px;
+    height: 310px;
+    display: inline-block;
+    position: absolute;
+    top: 520px;
+    left: 1055px;
+}
+
+.fourplus1{
+    border: 2px;
+    width: 220px;
+    height: 310px;
+    display: inline-block;
+    position: absolute;
+    top: 555px;
+    left: 1055px;
+}
+
+.fourplus2{
+    border: 2px;
+    width: 220px;
+    height: 310px;
+    display: inline-block;
+    position: absolute;
+    top: 590px;
+    left: 1055px;
+}
+
+.fourplus3{
+    border: 2px;
+    width: 220px;
+    height: 310px;
+    display: inline-block;
+    position: absolute;
+    top: 625px;
+    left: 1055px;
+}
+
+.fourplus4{
+    border: 2px;
+    width: 220px;
+    height: 310px;
+    display: inline-block;
+    position: absolute;
+    top: 660px;
+    left: 1055px;
+}
+
+
+.fourWD{
+    background-image: url(./images/5_of_spades.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.five{
+    border: 2px;
+    width: 220px;
+    height: 310px;
+    display: inline-block;
+    position: absolute;
+    top: 520px;
+    left: 1300px;
+}
+
+.fiveplus1{
+    border: 2px;
+    width: 220px;
+    height: 310px;
+    display: inline-block;
+    position: absolute;
+    top: 555px;
+    left: 1300px;
+}
+
+.fiveplus2{
+    border: 2px;
+    width: 220px;
+    height: 310px;
+    display: inline-block;
+    position: absolute;
+    top: 590px;
+    left: 1300px;
+}
+
+.fiveplus3{
+    border: 2px;
+    width: 220px;
+    height: 310px;
+    display: inline-block;
+    position: absolute;
+    top: 625px;
+    left: 1300px;
+}
+
+.fiveplus4{
+    border: 2px;
+    width: 220px;
+    height: 310px;
+    display: inline-block;
+    position: absolute;
+    top: 660px;
+    left: 1300px;
+}
+
+.fiveplus5{
+    border: 2px;
+    width: 220px;
+    height: 310px;
+    display: inline-block;
+    position: absolute;
+    top: 695px;
+    left: 1300px;
+}
+
+.ten{
+    background-image: url(./images/queen_of_hearts2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.six{
+    border: 2px;
+    width: 220px;
+    height: 310px;
+    display: inline-block;
+    position: absolute;
+    top: 520px;
+    left: 1555px;
+}
+
+.sixplus1{
+    border: 2px;
+    width: 220px;
+    height: 310px;
+    display: inline-block;
+    position: absolute;
+    top: 555px;
+    left: 1555px;
+}
+
+.sixplus2{
+    border: 2px;
+    width: 220px;
+    height: 310px;
+    display: inline-block;
+    position: absolute;
+    top: 590px;
+    left: 1555px;
+}
+
+.sixplus3{
+    border: 2px;
+    width: 220px;
+    height: 310px;
+    display: inline-block;
+    position: absolute;
+    top: 625px;
+    left: 1555px;
+}
+
+.sixplus4{
+    border: 2px;
+    width: 220px;
+    height: 310px;
+    display: inline-block;
+    position: absolute;
+    top: 660px;
+    left: 1555px;
+}
+
+.sixplus5{
+    border: 2px;
+    width: 220px;
+    height: 310px;
+    display: inline-block;
+    position: absolute;
+    top: 695px;
+    left: 1555px;
+}
+
+.sixplus6{
+    border: 2px;
+    width: 220px;
+    height: 310px;
+    display: inline-block;
+    position: absolute;
+    top: 730px;
+    left: 1555px;
+}
+
+.twelve{
+    background-image: url(./images/2_of_spades.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
