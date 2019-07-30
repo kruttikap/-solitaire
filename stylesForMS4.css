@@ -1,7 +1,11 @@
 .gamespace{
     background-color:green;
-    padding:0px; 
-} 
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 1050px;
+    padding-left: 310px;
+    /* padding:1000px;  */
+}  
 
 .lookatmesometimes{
     background-color: gold;
@@ -11,66 +15,94 @@
     width:90%;
     right:57px;
 }
+/* 
+.timer .timer-count-color .moves .moves-count-color .score .score-count-color .new-game .undo{
+    font-size: 35px; */
 
 .timer{
-  font-weight: bold;
-  position: absolute;
-  top: 18px;
-}
-.timer-count-color{
-    color: white;
+    font-size: 30px;
+    color: red;
     font-weight: bold;
     position: absolute;
-    left: 89px;
-    top: 18px;
+    top: 12px;
+    left: 75px;
+}
+
+.timer-count-color{
+    color: blue;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    left: 165px;
+    top: 15px; 
 }
 
 .moves{
-  position: absolute;
-  left: 175px;
-  font-weight: bold;
-  top: 18px;
+    color: red;
+    position: absolute;
+    left: 298px;
+    font-size: 30px; 
+    font-weight: bold;
+    top: 12px; 
 }
 
 .moves-count-color{
-    color: white;
+    color: blue;
     position: absolute;
-    left: 238px;
+    left: 395px;
+    font-size: 28px; 
     font-weight: bold;
-    top: 18px;
+    top: 15px; 
 }
 
 
 .score{
-  position: absolute;
-  left: 275px;
-  font-weight: bold;
-  top: 18px;
-}
-.score-count-color{
-    color:white;
+    color: red;
     position: absolute;
-    left: 333px;
+    left: 445px;
+    font-size: 30px; 
     font-weight: bold;
-    top: 18px;
+    top: 12px;
+}
+
+.score-count-color{
+    color: blue;
+    position: absolute;
+    left: 530px;
+    font-size: 30px;
+    font-weight: bold;
+    top: 15px;
+}
+
+.sametitle{
+    color: black;
+    position: absolute;
+    left: 750px;
+    font-size: 45px;
+    font-weight: bold;
+    top: 5px;
 }
 
 .new-game{
     border: inset;
     background-color: green;
     color: yellow;
+    font-size: 20px; 
     font-weight: bold;
     position: absolute;
-    right: 255px;
+    right: 260px;
+    top: 12px;
 }
 
 .undo{
     border: outset;
     background-color: black;
     color: tomato;
+    font-size: 20px;  
     font-weight: bold;
     position: absolute;
     right: 45px;
+    top: 12px;
 }
 
 .fa-undo{
@@ -81,34 +113,92 @@
   background-image: url(/home/saiteja/Downloads/playcard_red-backgrnd.gif);
   background-size: cover;
   background-repeat: no-repeat;
-} 
+}
 
- .row2{
+.littlehearts{
+    background-image: url(heart_symbol_playcard.png);
+    background-size: contain;
+    width: 484px;
+    height: 200px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 65px;
+    left: 14px;
+}
+
+.blooddiamond{
+    background-image: url(diamond_playcard.png);
+    background-size: contain;
+    width: 484px;
+    height: 200px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 65px;
+    left: 10px;
+}
+
+.gamblersonly{
+    background-image: url(club_playcard.png);
+    background-size: contain;
+    width: 484px;
+    height: 200px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 62px;
+    left: 14px;
+}
+
+.winteriscoming{
+    background-image: url(Spade_playcard.png);
+    background-size: contain;
+    width: 484px;
+    height: 200px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 65px;
+    left: 14px;
+}
+
+        /* width: 5px;
+        height: 5px;    
+        background-image: url(heart_symbol_playcard.png);
+        background-size: cover;
+        background-repeat: no-repeat; */
+
+
+ /* .row2{
     position: absolute;
     top: 160px;
-    /* border: 3px solid blue;
+     border: 3px solid blue;
     height: 315px;
     width: 100%;
-    padding: 25px; */
-}  
+    padding: 25px; 
+}     */
+/* .srk{
+    background-image: url(heart_symbol_playcard.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
 
 .stockpile{
-    border: 2px dotted;
+    border: 2px;
     width: 220px;
     height: 310px;
     display: inline-block;
     position: absolute;
     left: 80px;
+    top: 160px;
     z-index: 0; 
 }
 
 .card{ 
-    border: 2px dotted;
+    border: 2px;
     width: 220px;
     height: 310px;
     display: inline-block;
     position: absolute;
     left: 80px;
+    top: 160px;
     z-index: 0; 
 }
 
@@ -118,16 +208,21 @@
     height: 310px;
     display: inline-block;
     position: absolute;
-    left: 325px;    
+    left: 325px;
+    top: 160px;    
 }  
  
-  .heart-foundation{ 
+.heart-foundation{ 
     border: 2px dotted;
     width: 220px;
     height: 310px;
     display: inline-block;
     position: absolute;
-    left: 750px;    
+    left: 750px;
+    top: 160px;    
+    /* background-image: url(heart_symbol_playcard.png);
+    background-size: cover;
+    background-repeat: no-repeat; */
 }
 
 .diamond-foundation{
@@ -136,7 +231,8 @@
     height: 310px;
     display: inline-block;
     position: absolute;
-    left: 1010px;    
+    left: 1010px;
+    top: 160px;    
 }
 
 .club-foundation{
@@ -146,6 +242,7 @@
     display: inline-block;
     position: absolute;
     left: 1270px;
+    top: 160px;
 }
 
 .spade-foundation{
@@ -155,17 +252,18 @@
     display: inline-block;
     position: absolute;
     left: 1530px;
+    top: 160px;
 }
 
-.img{
+/* .img{
   border: 1px solid #ddd;
   border-radius: 4px;
   padding: 5px;
   width: 15px;
-}
+} */
 
 .zero{
-    border: 2px dotted;
+    border: 2px;
     width: 220px;
     height: 310px;
     display: inline-block;
@@ -174,8 +272,13 @@
     left: 35px;
 }
 
+.srk{
+    background-image: url(/home/saiteja/Milestone4/10_of_hearts.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 .one{
-    border: 2px dotted;
+    border: 2px;
     width: 220px;
     height: 310px;
     display: inline-block;
@@ -185,18 +288,22 @@
 }
 
 .oneplusneversettle{
-    border: 2px dotted;
+    border: 2px;
     width: 220px;
     height: 310px;
     display: inline-block;
     position: absolute;
-    top: 535px;
+    top: 555px;
     left: 295px;
 }
 
-
+.sevenpro{
+    background-image: url(/home/saiteja/Milestone4/7_of_diamonds.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 .two{
-    border: 2px dotted;
+    border: 2px;
     width: 220px;
     height: 310px;
     display: inline-block;
@@ -206,27 +313,33 @@
 }
 
 .twoplus1{
-    border: 2px dotted;
+    border: 2px;
     width: 220px;
     height: 310px;
     display: inline-block;
     position: absolute;
-    top: 535px;
+    top: 555px;
     left: 550px;
 }
 
 .twoplus2{
-    border: 2px dotted;
+    border: 2px;
     width: 220px;
     height: 310px;
     display: inline-block;
     position: absolute;
-    top: 570px;
+    top: 590px;
     left: 550px;
 }
 
+.maybefour{
+    background-image: url(/home/saiteja/Milestone4/ace_of_clubs.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .three{
-    border: 2px dotted;
+    border: 2px;
     width: 220px;
     height: 310px;
     display: inline-block;
@@ -236,39 +349,43 @@
 }
 
 .threeplus1{
-    border: 2px dotted;
+    border: 2px;
     width: 220px;
     height: 310px;
     display: inline-block;
     position: absolute;
-    top: 535px;
+    top: 555px;
     left: 805px;
 }
 
 .threeplus2{
-    border: 2px dotted;
+    border: 2px;
     width: 220px;
     height: 310px;
     display: inline-block;
     position: absolute;
-    top: 570px;
+    top: 590px;
     left: 805px;
 }
 
 .threeplus3{
-    border: 2px dotted;
+    border: 2px;
     width: 220px;
     height: 310px;
     display: inline-block;
     position: absolute;
-    top: 605px;
+    top: 625px;
     left: 805px;
 }
 
-
+.theenpatti{
+    background-image: url(/home/saiteja/Milestone4/king_of_diamonds2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
 .four{
-    border: 2px dotted;
+    border: 2px;
     width: 220px;
     height: 310px;
     display: inline-block;
@@ -278,47 +395,54 @@
 }
 
 .fourplus1{
-    border: 2px dotted;
+    border: 2px;
     width: 220px;
     height: 310px;
     display: inline-block;
     position: absolute;
-    top: 535px;
+    top: 555px;
     left: 1055px;
 }
 
 .fourplus2{
-    border: 2px dotted;
+    border: 2px;
     width: 220px;
     height: 310px;
     display: inline-block;
     position: absolute;
-    top: 570px;
+    top: 590px;
     left: 1055px;
 }
 
 .fourplus3{
-    border: 2px dotted;
+    border: 2px;
     width: 220px;
     height: 310px;
     display: inline-block;
     position: absolute;
-    top: 605px;
+    top: 625px;
     left: 1055px;
 }
 
 .fourplus4{
-    border: 2px dotted;
+    border: 2px;
     width: 220px;
     height: 310px;
     display: inline-block;
     position: absolute;
-    top: 640px;
+    top: 660px;
     left: 1055px;
 }
 
+
+.fourWD{
+    background-image: url(/home/saiteja/Milestone4/5_of_spades.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .five{
-    border: 2px dotted;
+    border: 2px;
     width: 220px;
     height: 310px;
     display: inline-block;
@@ -328,57 +452,62 @@
 }
 
 .fiveplus1{
-    border: 2px dotted;
+    border: 2px;
     width: 220px;
     height: 310px;
     display: inline-block;
     position: absolute;
-    top: 535px;
+    top: 555px;
     left: 1300px;
 }
 
 .fiveplus2{
-    border: 2px dotted;
+    border: 2px;
     width: 220px;
     height: 310px;
     display: inline-block;
     position: absolute;
-    top: 570px;
+    top: 590px;
     left: 1300px;
 }
 
 .fiveplus3{
-    border: 2px dotted;
+    border: 2px;
     width: 220px;
     height: 310px;
     display: inline-block;
     position: absolute;
-    top: 605px;
+    top: 625px;
     left: 1300px;
 }
 
 .fiveplus4{
-    border: 2px dotted;
+    border: 2px;
     width: 220px;
     height: 310px;
     display: inline-block;
     position: absolute;
-    top: 640px;
+    top: 660px;
     left: 1300px;
 }
 
 .fiveplus5{
-    border: 2px dotted;
+    border: 2px;
     width: 220px;
     height: 310px;
     display: inline-block;
     position: absolute;
-    top: 675px;
+    top: 695px;
     left: 1300px;
 }
 
+.ten{
+    background-image: url(/home/saiteja/Milestone4/queen_of_hearts2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 .six{
-    border: 2px dotted;
+    border: 2px;
     width: 220px;
     height: 310px;
     display: inline-block;
@@ -388,61 +517,68 @@
 }
 
 .sixplus1{
-    border: 2px dotted;
+    border: 2px;
     width: 220px;
     height: 310px;
     display: inline-block;
     position: absolute;
-    top: 535px;
+    top: 555px;
     left: 1555px;
 }
 
 .sixplus2{
-    border: 2px dotted;
+    border: 2px;
     width: 220px;
     height: 310px;
     display: inline-block;
     position: absolute;
-    top: 570px;
+    top: 590px;
     left: 1555px;
 }
 
 .sixplus3{
-    border: 2px dotted;
+    border: 2px;
     width: 220px;
     height: 310px;
     display: inline-block;
     position: absolute;
-    top: 605px;
+    top: 625px;
     left: 1555px;
 }
 
 .sixplus4{
-    border: 2px dotted;
+    border: 2px;
     width: 220px;
     height: 310px;
     display: inline-block;
     position: absolute;
-    top: 640px;
+    top: 660px;
     left: 1555px;
 }
 
 .sixplus5{
-    border: 2px dotted;
+    border: 2px;
     width: 220px;
     height: 310px;
     display: inline-block;
     position: absolute;
-    top: 675px;
+    top: 695px;
     left: 1555px;
 }
 
 .sixplus6{
-    border: 2px dotted;
+    border: 2px;
     width: 220px;
     height: 310px;
     display: inline-block;
     position: absolute;
-    top: 700px;
+    top: 730px;
     left: 1555px;
+}
+
+.twelve{
+    background-image: url(/home/saiteja/Milestone4/2_of_spades.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
 }
