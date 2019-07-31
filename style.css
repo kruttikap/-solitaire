@@ -204,7 +204,7 @@
     height: 150px;
     display: inline-block;
     position: absolute;
-    left: 325px;
+    left: 184px;
     top: 160px;    
 }  
  
@@ -214,7 +214,7 @@
     height: 150px;
     display: inline-block;
     position: absolute;
-    left: 750px;
+    left: 420px;
     top: 160px;    
     /* background-image: url(heart_symbol_playcard.png);
     background-size: contain;
@@ -227,7 +227,7 @@
     height: 150px;
     display: inline-block;
     position: absolute;
-    left: 1010px;
+    left: 520px;
     top: 160px;    
 }
 
@@ -237,7 +237,7 @@
     height: 150px;
     display: inline-block;
     position: absolute;
-    left: 1270px;
+    left: 620px;
     top: 160px;
 }
 
@@ -247,7 +247,7 @@
     height: 150px;
     display: inline-block;
     position: absolute;
-    left: 1530px;
+    left: 720px;
     top: 160px;
 }
 
