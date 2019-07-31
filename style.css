@@ -199,7 +199,7 @@
 }
 
 .wastepile{
-    border: 2px dotted;
+    border: 1px dotted;
     width: 90px;
     height: 150px;
     display: inline-block;
@@ -209,7 +209,7 @@
 }  
  
 .heart-foundation{ 
-    border: 2px dotted;
+    border: 1px dotted;
     width: 90px;
     height: 150px;
     display: inline-block;
@@ -222,7 +222,7 @@
 }
 
 .diamond-foundation{
-    border: 2px dotted;
+    border: 1px dotted;
     width: 90px;
     height: 150px;
     display: inline-block;
@@ -232,7 +232,7 @@
 }
 
 .club-foundation{
-    border: 2px dotted;
+    border: 1px dotted;
     width: 90px;
     height: 150px;
     display: inline-block;
@@ -242,7 +242,7 @@
 }
 
 .spade-foundation{
-    border: 2px dotted;
+    border: 1px dotted;
     width: 90px;
     height: 150px;
     display: inline-block;
@@ -562,7 +562,7 @@
     height: 150px;
     display: inline-block;
     position: absolute;
-    top: 480px;
+    top: 488px;
     left: 720px;
 }
 
